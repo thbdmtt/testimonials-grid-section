@@ -8,6 +8,10 @@ body {
   margin: 30px auto;
   max-width: 1110px;
   max-height: 572px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: 13px;
   background-color: hsl(210, 46%, 95%);
@@ -28,6 +32,9 @@ img {
   border-radius: 50%;
   width: 28px;
   height: 28px;
+}
+blockquote {
+  margin: 0;
 }
 
 .wrap1 {
